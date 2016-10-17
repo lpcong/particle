@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>canvas学习</title>
+	<style type="text/css">
+		body{background-color: #0c1328;position: absolute;left: 0;top: 0;right: 0;bottom: 0;}
+		canvas{margin:0 auto;}
+    </style>
+</head>
+<body>
+	<canvas id="myCanvas" width="1200" height="700"></canvas>
+	<script type="text/javascript" src="js/particles.min.js"></script>
+	<script type="text/javascript">
+		/*
+		 * parameters
+		 * canvasId: 画布id，必填
+		 * imgUrl: 纯色图片的路径，可以是jpg或者png，做粒子动画的图案色值应为#000，必填
+		 * cols/rows：分别代表图案每一行和每一列显示粒子数，此处需要设定的cols和rows要可被图片width和height整除，必填
+		 * startX/startY: 粒子起始位置x,y  
+		 * imgX/imgY: 图片左上角坐标，相对canvas左上角的偏移值
+		 * delay: 延迟执行动画时间，单位ms
+		 * duration: 持续时间，单位ms
+		 * fillStyle: 粒子颜色值，可带半透明
+		 * particleOffset：粒子偏移值
+		 * ease: 缓动函数 提供linear，Quad，Cubic，Quart，Quint，Sine，Expo，Circ，Elastic，Back 提供easeIn,easeOut,easeInOut
+		 * interval: 粒子间开始移动间隔
+		 * ratioX/ratioY x,y轴位移比率 
+		 */
+		var particles = new Particles({
+			canvasId: 'myCanvas',
+			imgUrl: 'img/isux.jpg',
+			cols: 100,
+			rows: 100,
+			startX: 700,
+			startY: 400,
+			imgX: 500,
+			imgY: 50,
+			delay: 1000,
+			duration: 3000,
+			interval: 10,
+			fillStyle: 'rgba(26,145,211,1)',
+			particleOffset: 2,
+			ease: 'easeInOutExpo'
+		});
+		particles.animate();
+	</script>
+</body>
+</html>
