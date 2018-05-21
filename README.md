@@ -1,7 +1,9 @@
 # particle
 particle.js是用来制作canvas粒子动画。具体用法如下：
-效果之一
+
+![](http://ww2.sinaimg.cn/large/0064cTs2gw1f72nsjjo4qg30qo0cz4ex.gif)
 ![](http://ww4.sinaimg.cn/large/0064cTs2gw1f72nsjzsvug30qo0czkfl.gif)
+
 ```javascript
 <canvas id="myCanvas" width="1200" height="700"></canvas>
 <script type="text/javascript" src="js/particles.min.js"></script>
