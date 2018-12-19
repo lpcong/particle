@@ -8,7 +8,7 @@
 ![](http://ww4.sinaimg.cn/large/0064cTs2gw1f72nsjzsvug30qo0czkfl.gif)
 
 ## web网页版本
-**注意：clone到本地直接访问demo是无法打开的（load img会失败），需要本地跑个服务器，把静态资源放到服务目录中再访问demo**
+**注意：clone到本地直接访问demo是无法打开的（load img会失败），需要本地跑个服务器，把静态资源放到服务目录，通过ip地址方式再访问demo**
 ```javascript
 <canvas id="myCanvas" width="1200" height="700"></canvas>
 <script type="text/javascript" src="js/particles.min.js"></script>

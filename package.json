@@ -1,0 +1,25 @@
+{
+  "name": "particle",
+  "version": "0.0.2",
+  "description": "> 动画制作原理可以查看我之前写的一篇文章：[<http://web.jobbole.com/87602/>](http://web.jobbole.com/87602/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpcong/particle.git"
+  },
+  "keywords": [
+    "canvas",
+    "粒子动画",
+    "h5",
+    "小程序"
+  ],
+  "author": "andypliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpcong/particle/issues"
+  },
+  "homepage": "https://github.com/lpcong/particle#readme"
+}
