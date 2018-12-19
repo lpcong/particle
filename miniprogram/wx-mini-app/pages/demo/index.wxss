@@ -1,0 +1,8 @@
+.my-canvas{
+    width: 750rpx;
+    height: 1206rpx;
+}
+
+.page{
+    background-color: #000;
+}
