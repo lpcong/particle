@@ -2,11 +2,12 @@
 
 > 动画制作原理可以查看我之前写的一篇文章：[<打造高大上的Canvas粒子动画>](https://juejin.im/entry/57baf747a34131005b130069)
 
-是用来制作canvas粒子动画。具体用法如下：
+先来看一下粒子动画的实际效果：
 
 ![](http://ww2.sinaimg.cn/large/0064cTs2gw1f72nsjjo4qg30qo0cz4ex.gif)
 ![](http://ww4.sinaimg.cn/large/0064cTs2gw1f72nsjzsvug30qo0czkfl.gif)
 
+## 使用
 ## web网页版本
 **注意：clone到本地直接访问demo是无法打开的（load img会失败），需要本地跑个服务器，把静态资源放到服务目录，通过ip地址方式再访问demo**
 ```javascript
